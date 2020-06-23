@@ -15,7 +15,7 @@ class choises
     start:
    cout << "выберите и введите какую из функций вы хотите использовать: \n'1' для использования функции первой команды \n'2' для использования функции второй команды \n'3' для использования функции  третьей команды \n'инфо' или 'info' для получения информации о функциях"<< endl;
     cin >> choise;
-    if (choise == "инфо" || choise == "info")
+    if (choise == "инфо" || choise == "info" || choise == "Info" || choise == "INFO" || choise == "info" || choise == "Инфо" || choise == "ИНФО")
         {
          ChoiseInt = 1;
         }
@@ -64,5 +64,5 @@ class choises
         break;
        }
      }
-  } 
+  return 0;} 
 };  
